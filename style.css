@@ -1,0 +1,264 @@
+ *{ 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;  
+ }
+ /*classes auxiliares*/
+
+ .body{
+     position: absolute;
+     box-sizing: border-box;
+     width: auto;
+ }
+
+    .container{
+        max-width: 1280px;
+        margin: 0 auto;
+       
+    }
+    .clear{clear: both;}
+
+    /*clases*/
+ 
+/*logo*/
+
+    .logo{
+        
+        float: left;
+    }
+ 
+  
+
+ 
+ /*navegador*/
+    nav.menu-desktop li.selected{font-weight: bolder;text-decoration: underline;}
+    nav.menu-desktop{
+        float: right;
+    }
+    nav.menu-desktop ul{/*lista*/
+        position: relative;
+        top: 2px;
+    }/*lista*/
+    nav.menu-desktop li{/*listaConteudo*/
+        padding: 0 10px;
+        font-weight: lighter;
+        display: inline-block;
+    }/*listaConteudo*/
+    nav.menu-desktop a{
+        color: black;
+        text-decoration: none;
+    }
+    nav.menu-desktop a:hover{text-decoration: underline;}
+
+ /*navegador*/
+
+ /*SectionMain*/
+ section.main-bg{
+            width: 100%;
+            padding: 140px 0 200px 0;
+            background-image: url(/imges/marmore-1.jpg);
+            background-size: 120%;
+            background-repeat: no-repeat;
+            background-position: center;
+            text-align: center;
+            }
+            section.main-bg h2{
+                color: whitesmoke;
+    
+            }
+
+             section.main-bg img{
+            
+            display: center;
+        }
+
+section.main-bg > .container{
+            position: absolute;
+            z-index:  2;
+        }
+
+        .overlay{
+            z-index: 1;
+            position: absolute;
+            width: 100%;
+            height: 59%;
+            background:rgba(0, 0, 0, 0.4);
+            left: 0;
+            top: 0;
+    }
+
+section.main-bg h1{
+            position:relative;
+            color: black;
+        }
+
+        section.main-bg p{
+            padding: 0% 5%;
+            color:whitesmoke;
+            font-size: 18px;
+            margin-bottom: 10px;
+            
+        }
+/*SectionMain*/
+
+section.diferencias h2{
+    text-align: center;
+}
+
+section.texto-chamada{
+	background: #4d4d4d;
+	padding: 30px 0;
+	text-align: center;
+	color: white;
+}
+section.texto-chamada i{
+	font-size: 40px;
+}
+section.texto-chamada h2,
+section.texto-chamada h3{
+	font-weight: normal;
+}
+
+section.texto-chamada h2 > b{
+	color: #bcc4bf;
+}
+
+
+section.loja{
+	padding: 0px 0;
+}
+
+
+section.loja > .center{
+    background-image: url(/imges/marmore-1.jpg);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.loja-wraper{
+	width: 33.3%;
+	padding: 100px;
+    position: relative;
+    bottom: 90px;
+}
+
+
+.box-single-loja{
+    background-image: url(/imges/marmore-1.jpg);
+    text-align: center;
+	height: 100%;
+	border: 8px solid rgb(163, 163, 163);
+    border-radius: 40px;
+}
+
+.box-single-loja img{
+    border-radius: 25px;
+	max-width: 100%;
+}
+
+.box-single-loja h2{
+    background-color: #4d4d4d;
+	text-align: center;
+	padding:0 0px;
+	font-weight: bold;
+    color: whitesmoke;
+}
+
+.box-single-loja p{
+    background-color: #3f3f3f;
+	padding:15px 8px;
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+}
+
+.loja-wraper a{
+	color: white;
+	background: #535353;
+	padding: 5px 8px;
+	text-align: center;
+	display: block;
+	width: 100%;
+    border-radius: 55px;
+}
+/*FIM Do Mostruario*/
+
+/*Seção Sobre*/
+
+section.sobre-equipe{
+    
+    color: whitesmoke;
+    padding: 30px 0;
+    background-color:#535353;
+}
+section.sobre-equipe > .container{
+    display: flex;
+}
+.equipe-container{
+    width: 50%;
+}
+.sobre-container{
+    width: 50%;
+}
+.sobre-container p{
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+/*Seção Equipe*/
+
+.img-avatar{
+    margin: 1.5%;
+    display:inline-block ;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-size: 100% 100%;
+}
+.descriçao-avatar{
+    width: calc(100%-70px);
+    display: inline-block;
+
+}
+.avatar-box h3{
+    font-size: normal;
+    font-style: italic;
+    position: relative;
+    left: 95px;
+    bottom: 65px;
+}
+.avatar-box p{
+    position: relative;
+    left: 95px;
+    bottom: 65px;
+    font-weight:bold;
+    font-size: 15px;
+}
+
+section.cards{
+    padding: 30px 0;
+} 
+.card-single{
+    width: 33.3%;
+    float: left;
+}
+.card-single img{
+    width:100% ;
+}
+/*seção equipe*/
+
+
+/*footer*/
+
+footer.footer1{
+    background-image: url(/imges/marmore-1.jpg);
+    height: 90px;
+  
+}
+footer.footer1 h1{
+    font-style: italic;
+    color: #ffffff;
+    text-align: center;
+}
+footer.footer1 h5{
+    color: #bcc4bf;
+}
